@@ -25,6 +25,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./src/shippingservice/
+          context: ./
           push: true
           tags: neurofunkbeat/microservicedemo:shippingservice
